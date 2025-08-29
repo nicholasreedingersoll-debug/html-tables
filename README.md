@@ -20,14 +20,28 @@
 4. Set the page title to "HTML Tables"
 
 ## Example Table Directions
-5. Use an ```<h1>``` tag to add a heading the says "Address Book"
-6. Add a ```<table>``` tag
-7. Inside the ```<table>``` tag, add four rows using the ```<tr>``` tag
-8. Inside the first row, add three ```<th>``` tags for Name, Phone Number, and Email
-9. In each of the other three rows, add three ```<td>``` tags 
+1. Use an ```<h1>``` tag to add a heading the says "Address Book"
+2. Add a ```<table border="1">``` tag
+3. Inside the ```<table>``` tag, add four rows using the ```<tr>``` tag
+4. Inside the first row, add three ```<th>``` tags for Name, Phone Number, and Email
+5. In each of the other three rows, add three ```<td>``` tags 
 
-## Assignment Directions
-1. Copy the starter code below and paste it underneath the example
+## Assignment Part 1 Directions
+Using an HTML table, make a table that lists your favorite things for each day. Each day of the week will be a column in the table. The rows will be your
+- favorite food to eat for breakfast
+- favorite activity to do on that day
+- favorite person to hang out with on that day
+- favorite place to go on that day
+- The table headers should have the name of each day of the week.
+
+1. Add an ```<h1>``` tag that says "My Daily Favorites"
+2. Add a ```<table border="1">``` tag
+3. Inside the table, use ```<tr>``` tags to add three rows
+4. In the first row, use ```<th>``` tags to creating headings for each day fo the week: Sunday, Monday, Tuesday, Wednesday, Thursday, and Friday
+5. In the second row, use ```<td>``` tags to list what you like for breakfast for each day
+
+## Assignment Part 2 Directions
+1. Copy the starter code below and paste it right above your ending ```</body>``` tag
     ```html
     <h1>National Sports</h1>
         <table border="1">
